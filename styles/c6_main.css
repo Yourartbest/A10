@@ -59,9 +59,6 @@ main h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-main img {
-	padding-bottom: 1em;
-}
 main p {
 	padding-bottom: .5em;
 }
@@ -81,6 +78,11 @@ article {
 	padding: .5em 0;
 	border-top: 2px solid #800000;
 	border-bottom: 2px solid #800000;
+}
+article img{
+	float: right;
+	margin: 2px 0px 2px 2px;
+	border: 1px solid black;
 }
 article h2 {
 	padding-top: 0px;
@@ -116,11 +118,6 @@ section {
 	float: right;
 	padding: 0px 20px 20px;
 
-}
-section img{
-	float: right;
-	margin: 7px 0px 7px 7px;
-	border: 1px black;
 }
 aside {
 	width: 215px;
